@@ -20,11 +20,11 @@ public class Main {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке \n");
         }
         System.out.println("Задача 3");
-        int year = 200;
+        int year = 2001;
         if (year % 4 == 0 && year % 100 != 0 && year % 400 == 0 && year >= 1584) {
-            System.out.println("Год високосный \n");
+            System.out.println(year + "год является високосным \n");
         } else {
-            System.out.println("Год не должен быть меньше 1584 \n");
+            System.out.println("Год не является високосным \n");
         }
         System.out.println("Задача 4");
         int deliveryDistance = 95;
